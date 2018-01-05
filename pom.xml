@@ -15,7 +15,7 @@
     </modules>
 
     <properties>
-        <springframework.version>4.1.3.RELEASE</springframework.version>
+        <springframework.version>4.3.10.RELEASE</springframework.version>
         <netty-version>4.0.0.Alpha8</netty-version>
     </properties>
 
@@ -23,13 +23,13 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
-            <version>1.6.4</version>
+            <version>1.7.25</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.9</version>
+            <version>4.12</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -56,7 +56,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
-            <version>2.5.3</version>
+            <version>2.5.8</version>
             <exclusions>
                 <exclusion>
                     <artifactId>spring</artifactId>
@@ -102,7 +102,7 @@
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
-            <version>2.2.2</version>
+            <version>2.2</version>
         </dependency>
     </dependencies>
 </project>
